@@ -1,0 +1,79 @@
+@media (max-width: 768px) {
+  nav ul {
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 15px;
+  }
+
+  .hero {
+    height: auto;
+    padding: 50px 20px;
+
+    .title {
+      font-size: 28px;
+    }
+
+    .subtitle {
+      font-size: 18px;
+    }
+
+    .description {
+      font-size: 14px;
+    }
+
+    .quote-btn {
+      padding: 8px 16px;
+    }
+  }
+
+  .about {
+    .about__content {
+      flex-direction: column;
+    }
+
+    .about__images {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .services {
+    padding: 50px 20px;
+
+    .services__cards {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
+  .menu {
+    padding: 50px 20px;
+
+    .menu__tabs {
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .menu__content {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
+  .video-section__content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .video-section__text {
+    max-width: 100%;
+  }
+
+  .prices-section {
+    padding: 50px 20px;
+
+    .prices-grid {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-green: #00a650;
+  --header-bg: rgba(0, 0, 0, 0.8);
+  --grey: #acacac;
+  --blue: #1e266d;
+  --Paragraph: #696969;
+  --color-grey: #555555;
+  --color-dark-blue: #14277a;
+  --color-light-grey: #777;
+  --color-light-green: #00d664;
+  --color-dark-green: #008c43;
+  --color-light-blue: #f8f6fc;
+  --color-yellow: #ffcc00;
+}
