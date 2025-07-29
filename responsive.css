@@ -1,3 +1,39 @@
+@media (max-width: 480px) {
+  nav ul {
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 10px;
+  }
+
+  .hero {
+    padding: 30px 10px;
+
+    .title {
+      font-size: 24px;
+    }
+
+    .subtitle {
+      font-size: 16px;
+    }
+
+    .description {
+      font-size: 12px;
+    }
+
+    .quote-btn {
+      padding: 6px 12px;
+    }
+  }
+
+  .menu__tabs {
+    gap: 5px;
+  }
+
+  .menu__content {
+    gap: 10px;
+  }
+}
+
 @media (max-width: 768px) {
   nav ul {
     flex-wrap: wrap;
@@ -75,5 +111,35 @@
       flex-direction: column;
       gap: 20px;
     }
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    padding: 80px 40px;
+
+    .title {
+      font-size: 36px;
+    }
+
+    .subtitle {
+      font-size: 24px;
+    }
+
+    .description {
+      font-size: 18px;
+    }
+
+    .quote-btn {
+      padding: 12px 24px;
+    }
+  }
+
+  .services {
+    padding: 80px 40px;
+  }
+
+  .prices-section {
+    padding: 80px 40px;
   }
 }
